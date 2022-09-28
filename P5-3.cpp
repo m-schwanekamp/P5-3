@@ -1,3 +1,4 @@
+
 //P5-3
 #include <iostream>
 #include <iomanip>
@@ -10,8 +11,7 @@ int main(void) {
     cin >> number;
     while ( number > 0) {
         digits = number % 2;
-        number = number / 10;
-        cout << number << endl;
+        number = number / 2;
         cout << digits << endl;
     }
     return 0;
